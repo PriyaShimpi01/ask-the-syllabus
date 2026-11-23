@@ -1,0 +1,258 @@
+[
+  {
+    "id": "IN01",
+    "category": "in_scope",
+    "question": "What topics are covered in Unit I?",
+    "expected_keywords": [
+      "morphology",
+      "stemming",
+      "lemmatization",
+      "tokenization",
+      "finite state transducer",
+      "language model"
+    ],
+    "min_keywords": 4,
+    "note": ""
+  },
+  {
+    "id": "IN02",
+    "category": "in_scope",
+    "question": "What topics are covered in Unit II?",
+    "expected_keywords": [
+      "POS tagging",
+      "HMM",
+      "CRF",
+      "CFG",
+      "CKY",
+      "PCFG",
+      "information extraction"
+    ],
+    "min_keywords": 4,
+    "note": ""
+  },
+  {
+    "id": "IN03",
+    "category": "in_scope",
+    "question": "What is POS tagging?",
+    "expected_keywords": [
+      "part of speech",
+      "tag"
+    ],
+    "min_keywords": 2,
+    "note": ""
+  },
+  {
+    "id": "IN04",
+    "category": "in_scope",
+    "question": "What is the difference between Earley parsing and CKY parsing?",
+    "expected_keywords": [
+      "CKY",
+      "Earley",
+      "bottom up",
+      "chomsky normal form"
+    ],
+    "min_keywords": 3,
+    "note": ""
+  },
+  {
+    "id": "IN05",
+    "category": "in_scope",
+    "question": "How does an HMM-based POS tagger work?",
+    "expected_keywords": [
+      "state",
+      "transition",
+      "tag"
+    ],
+    "min_keywords": 3,
+    "note": ""
+  },
+  {
+    "id": "IN06",
+    "category": "in_scope",
+    "question": "What are transition and emission probabilities?",
+    "expected_keywords": [
+      "transition",
+      "emission",
+      "hidden state"
+    ],
+    "min_keywords": 3,
+    "note": ""
+  },
+  {
+    "id": "IN07",
+    "category": "in_scope",
+    "question": "What is Natural Language Processing?",
+    "expected_keywords": [
+      "computer",
+      "human language"
+    ],
+    "min_keywords": 1,
+    "note": ""
+  },
+  {
+    "id": "IN08",
+    "category": "in_scope",
+    "question": "Which reference book is listed for Unit II?",
+    "expected_keywords": [
+      "Jurafsky",
+      "Martin"
+    ],
+    "min_keywords": 1,
+    "note": ""
+  },
+  {
+    "id": "IN09",
+    "category": "in_scope",
+    "question": "How many hours is Unit I?",
+    "expected_keywords": [
+      "9"
+    ],
+    "min_keywords": 1,
+    "note": ""
+  },
+  {
+    "id": "IN10",
+    "category": "in_scope",
+    "question": "Which tagset is mentioned for POS tagging?",
+    "expected_keywords": [
+      "Universal Dependencies"
+    ],
+    "min_keywords": 1,
+    "note": ""
+  },
+  {
+    "id": "IN11",
+    "category": "in_scope",
+    "question": "What is stemming?",
+    "expected_keywords": [
+      "stem"
+    ],
+    "min_keywords": 1,
+    "note": "verify wording in your Unit I slides"
+  },
+  {
+    "id": "IN12",
+    "category": "in_scope",
+    "question": "What is tokenization?",
+    "expected_keywords": [
+      "token"
+    ],
+    "min_keywords": 1,
+    "note": "verify wording in your Unit I slides"
+  },
+  {
+    "id": "IN13",
+    "category": "in_scope",
+    "question": "What is a context free grammar?",
+    "expected_keywords": [
+      "grammar",
+      "rule"
+    ],
+    "min_keywords": 2,
+    "note": "verify wording in your Unit II slides"
+  },
+  {
+    "id": "IN14",
+    "category": "in_scope",
+    "question": "What is TF-IDF?",
+    "expected_keywords": [
+      "term frequency",
+      "inverse document frequency"
+    ],
+    "min_keywords": 1,
+    "note": "verify wording in your Unit II slides"
+  },
+  {
+    "id": "IN15",
+    "category": "in_scope",
+    "question": "What is a probabilistic context free grammar?",
+    "expected_keywords": [
+      "probab",
+      "grammar"
+    ],
+    "min_keywords": 2,
+    "note": "verify wording in your Unit II slides"
+  },
+  {
+    "id": "IN16",
+    "category": "in_scope",
+    "question": "Who teaches the NLP course?",
+    "expected_keywords": [
+      "Saleha"
+    ],
+    "min_keywords": 1,
+    "note": ""
+  },
+  {
+    "id": "OUT01",
+    "category": "out_of_scope",
+    "question": "What is quantum computing?",
+    "expected_keywords": [],
+    "min_keywords": 0,
+    "note": "clearly_unrelated"
+  },
+  {
+    "id": "OUT02",
+    "category": "out_of_scope",
+    "question": "What is the capital of France?",
+    "expected_keywords": [],
+    "min_keywords": 0,
+    "note": "clearly_unrelated"
+  },
+  {
+    "id": "OUT03",
+    "category": "out_of_scope",
+    "question": "Give me a recipe for chocolate cake.",
+    "expected_keywords": [],
+    "min_keywords": 0,
+    "note": "clearly_unrelated"
+  },
+  {
+    "id": "OUT04",
+    "category": "out_of_scope",
+    "question": "Who won the FIFA World Cup in 2022?",
+    "expected_keywords": [],
+    "min_keywords": 0,
+    "note": "clearly_unrelated"
+  },
+  {
+    "id": "OUT05",
+    "category": "out_of_scope",
+    "question": "How does blockchain consensus work?",
+    "expected_keywords": [],
+    "min_keywords": 0,
+    "note": "clearly_unrelated"
+  },
+  {
+    "id": "OUT06",
+    "category": "out_of_scope",
+    "question": "What is the current price of Bitcoin?",
+    "expected_keywords": [],
+    "min_keywords": 0,
+    "note": "clearly_unrelated"
+  },
+  {
+    "id": "OUT07",
+    "category": "out_of_scope",
+    "question": "Explain how a GAN generator and discriminator are trained.",
+    "expected_keywords": [],
+    "min_keywords": 0,
+    "note": "other_course_topic"
+  },
+  {
+    "id": "OUT08",
+    "category": "out_of_scope",
+    "question": "What is the BERT architecture?",
+    "expected_keywords": [],
+    "min_keywords": 0,
+    "note": "near_domain_VERIFY_not_in_your_PDFs"
+  },
+  {
+    "id": "OUT09",
+    "category": "out_of_scope",
+    "question": "Explain self-attention in transformers.",
+    "expected_keywords": [],
+    "min_keywords": 0,
+    "note": "near_domain_VERIFY_not_in_your_PDFs"
+  }
+]
