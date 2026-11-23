@@ -1,0 +1,29 @@
+{
+  "files": {
+    "GAN_LLM.pdf": {
+      "pages": 29,
+      "pages_without_text": 0
+    },
+    "microprocessor pdf.pdf": {
+      "pages": 10,
+      "pages_without_text": 0
+    }
+  },
+  "total_pages": 39,
+  "pages_with_text": 39,
+  "chunks_before_filter": 60,
+  "chunks_kept": 60,
+  "chunk_chars": {
+    "min": 133,
+    "mean": 740.9,
+    "max": 1000
+  },
+  "settings": {
+    "chunk_size": 1000,
+    "chunk_overlap": 150,
+    "min_chunk_chars": 40,
+    "embedding_model": "sentence-transformers/all-MiniLM-L6-v2",
+    "normalized_embeddings": true
+  },
+  "vectors_in_index": 60
+}
